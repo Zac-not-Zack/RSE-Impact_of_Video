@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide de Streaming Responsable</title>
+    <link rel="stylesheet" href="style-v3.css">
+</head>
+<body>
+    <div id="general-advice" class="advice-container">
+        <h3>Conseils Généraux</h3>
+        <p>Pour un streaming plus responsable, pensez à désactiver la lecture automatique des vidéos sur les réseaux sociaux.</p>
+        <button onclick="startQuestions()" class="primary-button">Commencer</button>
+    </div>
+
+    <div id="question-container" style="display: none;">
+        <h2 id="question"></h2>
+        <div id="buttons-container"></div>
+    </div>
+
+    <div id="recommendations-container" style="display: none;">
+        <h2>Recommandations</h2>
+        <div id="recommendations" class="recommendations-text"></div>
+        <button onclick="restart()" class="primary-button">Recommencer</button>
+    </div>
+
+    <script src="script-v3.js"></script>
+</body>
+</html>
